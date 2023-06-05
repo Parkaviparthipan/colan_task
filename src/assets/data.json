@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "user1",
+    "phone": "1234567890",
+    "address": "123 Street",
+    "state": "Tamil Nadu",
+    "city": "Chennai"
+  },
+  {
+    "id": 2,
+    "name": "user2",
+    "phone": "9876543210",
+    "address": "456 Avenue",
+    "state": "Tamil Nadu",
+    "city": "Chennai"
+  },
+  {
+    "id": 3,
+    "name": "user3",
+    "phone": "8234203902",
+    "address": "234 street",
+    "state": "Tamil Nadu",
+    "city": "Chennai"
+  },
+  {
+    "id": 4,
+    "name": "user4",
+    "phone": "2320932023",
+    "address": "873 Avenue",
+    "state": "Tamil Nadu",
+    "city": "Chennai"
+  },
+  {
+    "id": 5,
+    "name": "user5",
+    "phone": "2312912123",
+    "address": "121 Avenue",
+    "state": "Tamil Nadu",
+    "city": "Chennai"
+  }
+]

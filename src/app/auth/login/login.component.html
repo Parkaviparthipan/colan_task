@@ -1,0 +1,42 @@
+<div class="container-fluid main">
+    <div class="login-details">
+        <div class="card" style="width:23em">
+            <div class="card-body">
+
+                <form style="padding:10px;" [formGroup]="loginForm" (ngSubmit)="submitForm()">
+                    <div class="avathar">
+                        <img alt="avathar" src="assets/images/avathar-logo.png" style="width:40px" />
+                    </div>
+
+                    <h4 style="text-align: center;">Login Form</h4>
+                    <div *ngIf="errorMsg" style="padding-top:2px;font-size:15px;color:red;">{{errorMsg}}</div>
+                    <div class="form-group">
+                        <label for="username" style="padding:10px 0px">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter the Username"
+                            formControlName="userName" />
+                        <div
+                            *ngIf="loginForm.get('userName')?.errors && (loginForm.get('userName')?.touched || loginForm.get('userName')?.dirty)">
+                            <div *ngIf="loginForm.get('userName')?.errors?.['required']"
+                                style="padding-top:2px;font-size:15px;color:red;">Username is required.</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" style="padding:10px 0px">Password</label>
+                        <input type="text" class="form-control" id="password" placeholder="Enter the Password"
+                            formControlName="password" />
+                        <div
+                            *ngIf="loginForm.get('password')?.errors && (loginForm.get('password')?.touched || loginForm.get('password')?.dirty)">
+                            <div *ngIf="loginForm.get('password')?.errors?.['required']"
+                                style="padding-top:2px;font-size:15px;color:red;">Password is required.</div>
+                        </div>
+
+                    </div>
+
+                    <div style="padding:20px 0px;display:flex;justify-content: center;align-items: center;">
+                        <button class="submit-button" type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

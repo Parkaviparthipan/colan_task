@@ -1,0 +1,42 @@
+[
+  {
+    "username": "user1@gmail.com",
+    "password": "password1"
+  },
+  {
+    "username": "user2@gmail.com",
+    "password": "password2"
+  },
+  {
+    "username": "user3@gmail.com",
+    "password": "password3"
+  },
+  {
+    "username": "user4@gmail.com",
+    "password": "password4"
+  },
+  {
+    "username": "user5@gmail.com",
+    "password": "password5"
+  },
+  {
+    "username": "user6@gmail.com",
+    "password": "password6"
+  },
+  {
+    "username": "user7@gmail.com",
+    "password": "password7"
+  },
+  {
+    "username": "user8@gmail.com",
+    "password": "password8"
+  },
+  {
+    "username": "user9@gmail.com",
+    "password": "password9"
+  },
+  {
+    "username": "user10@gmail.com",
+    "password": "password10"
+  }
+]
