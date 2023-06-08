@@ -32,7 +32,7 @@ export class LoginComponent implements OnInit {
     const user = this.userDetails.find((u: any) => u.username === username && u.password === password)
     console.log(user);
     if (user) {
-      localStorage.setItem('currentUser', user);
+      localStorage.setItem('currentUser', JSON.stringify(user));
       this._router.navigateByUrl("/user");
     } else {
       this.errorMsg = 'Please enter the valid Username and Password'

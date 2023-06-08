@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { UserService } from './user.service';
 
 import { BsModalService } from 'ngx-bootstrap/modal';
+
 @NgModule({
   declarations: [
     UserDetailsComponent,
